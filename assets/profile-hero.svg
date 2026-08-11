@@ -1,0 +1,66 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Wilson Wang — systems, intelligence, and visual computing</title>
+  <desc id="desc">A dark technical profile banner with a glowing signal path connecting systems, intelligence, and visual computing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="30" x2="1110" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07101F"/>
+      <stop offset="0.5" stop-color="#0A1224"/>
+      <stop offset="1" stop-color="#11112A"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="133" y1="322" x2="1070" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(180 82) rotate(35) scale(350 220)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1080 370) rotate(-145) scale(410 240)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#94A3B8" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <clipPath id="round"><rect width="1200" height="420" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#glowA)"/>
+    <rect width="1200" height="420" fill="url(#glowB)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+
+    <g opacity="0.6">
+      <circle cx="1100" cy="64" r="2" fill="#F8FAFC"/>
+      <circle cx="1030" cy="112" r="1.5" fill="#F8FAFC"/>
+      <circle cx="1134" cy="168" r="1" fill="#F8FAFC"/>
+      <circle cx="972" cy="52" r="1" fill="#F8FAFC"/>
+      <circle cx="87" cy="350" r="1.5" fill="#F8FAFC"/>
+    </g>
+
+    <text x="72" y="72" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="3">WILSON // SIGNAL 621</text>
+    <text x="70" y="151" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="64" font-weight="720" letter-spacing="-2">Wilson Wang</text>
+    <text x="73" y="198" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">build → measure → understand</text>
+    <text x="72" y="244" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20">Systems · AI Computing · Interactive Experiences</text>
+
+    <g transform="translate(72 292)">
+      <path d="M0 32H112L138 8L169 52L202 20H339L370 32H504L537 9L571 52L604 32H742L772 21L802 32H998" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 32H112L138 8L169 52L202 20H339L370 32H504L537 9L571 52L604 32H742L772 21L802 32H998" stroke="url(#signal)" stroke-opacity="0.42" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" filter="url(#blur)"/>
+      <circle cx="138" cy="8" r="5" fill="#67E8F9"/>
+      <circle cx="537" cy="9" r="5" fill="#A5B4FC"/>
+      <circle cx="772" cy="21" r="5" fill="#F9A8D4"/>
+    </g>
+
+    <g fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.4">
+      <text x="72" y="383">31.2304° N</text>
+      <text x="212" y="383">121.4737° E</text>
+      <text x="990" y="383">SJTU / ACM</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="418" rx="25" stroke="url(#signal)" stroke-opacity="0.25" stroke-width="2"/>
+</svg>
