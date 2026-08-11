@@ -86,12 +86,7 @@ I write longer build notes, course notes, and project retrospectives on **[wilso
 <br />
 
 <div align="center">
-  <a href="https://github.com/WilsonWang621">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=WilsonWang621&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=percentile&amp;theme=transparent&amp;title_color=818cf8&amp;icon_color=22d3ee&amp;text_color=94a3b8" alt="Wilson's GitHub stats" />
-  </a>
-  <a href="https://github.com/WilsonWang621?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WilsonWang621&amp;layout=compact&amp;hide_border=true&amp;theme=transparent&amp;title_color=818cf8&amp;text_color=94a3b8&amp;langs_count=8" alt="Wilson's most used languages" />
-  </a>
+  <a href="https://github.com/WilsonWang621?tab=repositories"><img width="96%" src="./assets/github-dashboard.svg" alt="Wilson's project signals and language orbit" /></a>
 </div>
 
 <div align="center">
