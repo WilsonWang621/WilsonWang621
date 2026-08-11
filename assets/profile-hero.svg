@@ -1,66 +1,51 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Wilson Wang — systems, intelligence, and visual computing</title>
-  <desc id="desc">A dark technical profile banner with a glowing signal path connecting systems, intelligence, and visual computing.</desc>
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Wilson Wang / 王文轩</title>
+  <desc id="desc">A colorful editorial profile poster for Wilson Wang, an undergraduate in the ACM Honor Class at Shanghai Jiao Tong University.</desc>
   <defs>
-    <linearGradient id="bg" x1="80" y1="30" x2="1110" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07101F"/>
-      <stop offset="0.5" stop-color="#0A1224"/>
-      <stop offset="1" stop-color="#11112A"/>
-    </linearGradient>
-    <linearGradient id="signal" x1="133" y1="322" x2="1070" y2="98" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.48" stop-color="#818CF8"/>
-      <stop offset="1" stop-color="#F472B6"/>
-    </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(180 82) rotate(35) scale(350 220)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1080 370) rotate(-145) scale(410 240)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A855F7" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#94A3B8" stroke-opacity="0.07"/>
+    <pattern id="paper-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#18332C" stroke-opacity="0.055"/>
     </pattern>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
-    <clipPath id="round"><rect width="1200" height="420" rx="26"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="400" rx="18"/></clipPath>
   </defs>
 
-  <g clip-path="url(#round)">
-    <rect width="1200" height="420" fill="url(#bg)"/>
-    <rect width="1200" height="420" fill="url(#glowA)"/>
-    <rect width="1200" height="420" fill="url(#glowB)"/>
-    <rect width="1200" height="420" fill="url(#grid)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="#F5F0E8"/>
+    <rect width="1200" height="400" fill="url(#paper-grid)"/>
 
-    <g opacity="0.6">
-      <circle cx="1100" cy="64" r="2" fill="#F8FAFC"/>
-      <circle cx="1030" cy="112" r="1.5" fill="#F8FAFC"/>
-      <circle cx="1134" cy="168" r="1" fill="#F8FAFC"/>
-      <circle cx="972" cy="52" r="1" fill="#F8FAFC"/>
-      <circle cx="87" cy="350" r="1.5" fill="#F8FAFC"/>
+    <circle cx="1138" cy="28" r="128" fill="#F3C94F"/>
+    <circle cx="1138" cy="28" r="75" fill="#F5F0E8"/>
+    <rect x="665" y="306" width="520" height="64" fill="#27A88A"/>
+    <circle cx="682" cy="80" r="42" fill="#EF6548"/>
+    <path d="M648 122L716 54" stroke="#17332C" stroke-width="5"/>
+
+    <text x="58" y="58" fill="#2856C7" font-family="DejaVu Sans Mono, monospace" font-size="14" font-weight="700" letter-spacing="2.4">WILSON WANG / 王文轩</text>
+    <text x="58" y="146" fill="#17332C" font-family="DejaVu Sans, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-3">Wilson</text>
+    <rect x="44" y="167" width="468" height="103" fill="#2856C7"/>
+    <text x="58" y="249" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="-3">Wang</text>
+
+    <text x="58" y="310" fill="#17332C" font-family="Noto Sans CJK SC, sans-serif" font-size="21">上海交通大学 · ACM Honor Class · 2025</text>
+    <text x="58" y="356" fill="#5B6863" font-family="DejaVu Sans Mono, monospace" font-size="13">wilsonwang621.github.io</text>
+
+    <rect x="730" y="70" width="400" height="252" rx="8" fill="#17332C"/>
+    <text x="766" y="108" fill="#F3C94F" font-family="DejaVu Sans Mono, monospace" font-size="13" font-weight="700" letter-spacing="2">WORKING ON</text>
+
+    <g font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="650">
+      <circle cx="776" cy="150" r="7" fill="#EF6548"/>
+      <text x="799" y="157" fill="#FFFDF8">Computer architecture</text>
+      <circle cx="776" cy="193" r="7" fill="#F3C94F"/>
+      <text x="799" y="200" fill="#FFFDF8">CUDA &amp; GPU computing</text>
+      <circle cx="776" cy="236" r="7" fill="#27A88A"/>
+      <text x="799" y="243" fill="#FFFDF8">Algorithms &amp; optimization</text>
+      <circle cx="776" cy="279" r="7" fill="#7A9BFF"/>
+      <text x="799" y="286" fill="#FFFDF8">Interactive visual work</text>
     </g>
 
-    <text x="72" y="72" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="3">WILSON // SIGNAL 621</text>
-    <text x="70" y="151" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="64" font-weight="720" letter-spacing="-2">Wilson Wang</text>
-    <text x="73" y="198" fill="#A5B4FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">build → measure → understand</text>
-    <text x="72" y="244" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20">Systems · AI Computing · Interactive Experiences</text>
-
-    <g transform="translate(72 292)">
-      <path d="M0 32H112L138 8L169 52L202 20H339L370 32H504L537 9L571 52L604 32H742L772 21L802 32H998" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M0 32H112L138 8L169 52L202 20H339L370 32H504L537 9L571 52L604 32H742L772 21L802 32H998" stroke="url(#signal)" stroke-opacity="0.42" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" filter="url(#blur)"/>
-      <circle cx="138" cy="8" r="5" fill="#67E8F9"/>
-      <circle cx="537" cy="9" r="5" fill="#A5B4FC"/>
-      <circle cx="772" cy="21" r="5" fill="#F9A8D4"/>
-    </g>
-
-    <g fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.4">
-      <text x="72" y="383">31.2304° N</text>
-      <text x="212" y="383">121.4737° E</text>
-      <text x="990" y="383">SJTU / ACM</text>
+    <g fill="#17332C" font-family="DejaVu Sans Mono, monospace" font-size="12" font-weight="700" letter-spacing="1.2">
+      <text x="756" y="350">C++</text>
+      <text x="830" y="350">CUDA</text>
+      <text x="920" y="350">PYTHON</text>
+      <text x="1028" y="350">TYPESCRIPT</text>
     </g>
   </g>
-  <rect x="1" y="1" width="1198" height="418" rx="25" stroke="url(#signal)" stroke-opacity="0.25" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="398" rx="17" stroke="#17332C" stroke-opacity="0.35" stroke-width="2"/>
 </svg>

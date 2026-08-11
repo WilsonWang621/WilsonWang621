@@ -1,0 +1,71 @@
+<svg width="1200" height="348" viewBox="0 0 1200 348" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected work by Wilson Wang</title>
+  <desc id="desc">Four colorful editorial cards for the RISC-V simulator, CUDA Playground, DecisionLab, and The Unseen Field.</desc>
+  <defs>
+    <pattern id="dark-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFDF8" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="board"><rect width="1200" height="348" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#board)">
+    <rect width="1200" height="348" fill="#17332C"/>
+    <rect width="1200" height="348" fill="url(#dark-grid)"/>
+
+    <text x="42" y="48" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">Selected work</text>
+    <text x="1158" y="47" fill="#9BB0A9" font-family="DejaVu Sans Mono, monospace" font-size="12" text-anchor="end" letter-spacing="1.5">AUGUST 2026 / 01—04</text>
+
+    <g transform="translate(42 76)">
+      <rect width="267" height="218" rx="7" fill="#2856C7"/>
+      <text x="20" y="34" fill="#C9D5FF" font-family="DejaVu Sans Mono, monospace" font-size="12" font-weight="700">01 / SYSTEMS</text>
+      <text x="20" y="76" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">RISC-V</text>
+      <text x="20" y="106" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">Tomasulo</text>
+      <path d="M21 144H91L111 127L133 160L157 137H240" stroke="#F3C94F" stroke-width="4" stroke-linejoin="round"/>
+      <text x="20" y="194" fill="#DDE4FF" font-family="DejaVu Sans Mono, monospace" font-size="12">C++17 · RV32I · OOO</text>
+    </g>
+
+    <g transform="translate(325 76)">
+      <rect width="267" height="218" rx="7" fill="#EF6548"/>
+      <text x="20" y="34" fill="#FFE2D9" font-family="DejaVu Sans Mono, monospace" font-size="12" font-weight="700">02 / GPU</text>
+      <text x="20" y="76" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">CUDA</text>
+      <text x="20" y="106" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">Playground</text>
+      <g fill="#F3C94F">
+        <rect x="20" y="130" width="21" height="21"/><rect x="47" y="130" width="21" height="21"/><rect x="74" y="130" width="21" height="21"/>
+        <rect x="20" y="157" width="21" height="21"/><rect x="47" y="157" width="21" height="21"/><rect x="74" y="157" width="21" height="21"/>
+      </g>
+      <path d="M116 130H241M116 145H213M116 160H232M116 175H195" stroke="#FFE2D9" stroke-width="3"/>
+      <text x="20" y="204" fill="#FFE2D9" font-family="DejaVu Sans Mono, monospace" font-size="12">GEMM · Softmax · Attention</text>
+    </g>
+
+    <g transform="translate(608 76)">
+      <rect width="267" height="218" rx="7" fill="#F3C94F"/>
+      <text x="20" y="34" fill="#705C18" font-family="DejaVu Sans Mono, monospace" font-size="12" font-weight="700">03 / DECISIONS</text>
+      <text x="20" y="76" fill="#17332C" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">DecisionLab</text>
+      <circle cx="43" cy="141" r="11" fill="#17332C"/>
+      <circle cx="133" cy="122" r="11" fill="#2856C7"/>
+      <circle cx="224" cy="157" r="11" fill="#EF6548"/>
+      <path d="M53 138L122 124M144 126L214 153" stroke="#17332C" stroke-width="3"/>
+      <path d="M43 152V176H224V168" stroke="#17332C" stroke-width="3"/>
+      <text x="20" y="204" fill="#4D431D" font-family="DejaVu Sans Mono, monospace" font-size="12">forecast · optimize · evaluate</text>
+    </g>
+
+    <g transform="translate(891 76)">
+      <rect width="267" height="218" rx="7" fill="#27A88A"/>
+      <text x="20" y="34" fill="#D5FFF5" font-family="DejaVu Sans Mono, monospace" font-size="12" font-weight="700">04 / INTERACTION</text>
+      <text x="20" y="76" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">The Unseen</text>
+      <text x="20" y="106" fill="#FFFDF8" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="750">Field</text>
+      <circle cx="76" cy="151" r="39" stroke="#F3C94F" stroke-width="3"/>
+      <circle cx="76" cy="151" r="6" fill="#F3C94F"/>
+      <ellipse cx="76" cy="151" rx="65" ry="22" transform="rotate(-18 76 151)" stroke="#D5FFF5" stroke-width="2"/>
+      <circle cx="139" cy="132" r="5" fill="#D5FFF5"/>
+      <text x="20" y="204" fill="#D5FFF5" font-family="DejaVu Sans Mono, monospace" font-size="12">TypeScript · WebGL · installation</text>
+    </g>
+
+    <rect x="42" y="316" width="1116" height="3" fill="#39554C"/>
+    <rect x="42" y="316" width="279" height="3" fill="#2856C7"/>
+    <rect x="321" y="316" width="279" height="3" fill="#EF6548"/>
+    <rect x="600" y="316" width="279" height="3" fill="#F3C94F"/>
+    <rect x="879" y="316" width="279" height="3" fill="#27A88A"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="346" rx="15" stroke="#17332C" stroke-width="2"/>
+</svg>

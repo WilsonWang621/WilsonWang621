@@ -1,101 +1,60 @@
 <div align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Wilson Wang — systems, intelligence, and visual computing" />
+  <img src="./assets/profile-hero.svg" width="100%" alt="Wilson Wang / 王文轩" />
 </div>
+
+<p align="center">
+  <a href="https://wilsonwang621.github.io/">Website</a> ·
+  <a href="https://wilsonwang621.github.io/blog/">Writing</a> ·
+  <a href="https://wilsonwang621.github.io/projects/">Projects</a> ·
+  <a href="mailto:200706215314@sjtu.edu.cn">Email</a>
+</p>
+
+I'm Wilson, a 2025-cohort undergraduate in the ACM Honor Class at Shanghai Jiao Tong University.
+
+I learn best by implementing things: a processor pipeline, a CUDA kernel, a distributed protocol, or an interactive scene. Most repositories here grew out of coursework, independent study, and questions I wanted to test for myself.
 
 <div align="center">
-  <a href="https://wilsonwang621.github.io/"><img src="https://img.shields.io/badge/Blog-wilsonwang621.github.io-111827?style=flat-square&logo=astro&logoColor=white" alt="Personal blog" /></a>
-  <a href="mailto:200706215314@sjtu.edu.cn"><img src="https://img.shields.io/badge/Email-SJTU-111827?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=WilsonWang621&amp;style=flat-square&amp;color=6366f1&amp;label=PROFILE+SIGNALS" alt="Profile views" />
+  <a href="https://wilsonwang621.github.io/projects/"><img src="./assets/project-board.svg" width="100%" alt="Selected projects: RISC-V Tomasulo, CUDA Playground, DecisionLab, and The Unseen Field" /></a>
 </div>
 
-## `whoami`
+## What I'm working on
 
-I'm **Wilson Wang (王文轩)**, a 2025-cohort undergraduate in the **ACM Honor Class at Shanghai Jiao Tong University**. I like building systems where an abstract idea has to survive contact with reality: consensus under faults, out-of-order execution, GPU memory hierarchies, uncertain decisions, and interactive visuals.
-
-```text
-current coordinates
-├─ systems       distributed consensus · computer architecture · performance
-├─ intelligence  optimization · reinforcement learning · AI agents
-└─ expression    generative art · interactive computing · technical writing
-```
-
-> My favorite loop: make it correct → make it measurable → make it elegant.
-
-## Current signals
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌌 The Unseen Field</h3>
-      A real-time generative installation where invisible mass is perceived only through its effects on light, motion, and memory.
-      <br /><br />
-      <a href="https://github.com/WilsonWang621/Science-And-Art-Innovation-Competition-2026"><b>Enter the field →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 DecisionLab</h3>
-      A reproducible research loop connecting probabilistic forecasting, mathematical optimization, and reinforcement learning for dynamic dispatch.
-      <br /><br />
-      <a href="https://github.com/WilsonWang621/DecisionLab"><b>Inspect the decisions →</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ CUDA Playground</h3>
-      From memory movement and tiled GEMM to stable softmax and a teaching-oriented FlashAttention forward pass—with correctness and benchmarks first.
-      <br /><br />
-      <a href="https://github.com/WilsonWang621/CUDA-playground"><b>Follow the data →</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔬 RISC-V Tomasulo Simulator</h3>
-      A cycle-aware RV32I simulator with register renaming, ROB, reservation stations, LSQ, CDB, and a tournament predictor tested across 41M branches.
-      <br /><br />
-      <a href="https://github.com/WilsonWang621/RISC-V-CPU-Simulator"><b>Trace a cycle →</b></a>
-    </td>
-  </tr>
-</table>
+| Project | Current work |
+| --- | --- |
+| [RISC-V Tomasulo CPU Simulator](https://github.com/WilsonWang621/RISC-V-CPU-Simulator) | RV32I out-of-order execution, precise recovery, LSQ/CDB behavior, and tournament branch prediction in C++17 |
+| [CUDA Playground](https://github.com/WilsonWang621/CUDA-playground) | Memory access, tiled and register-tiled GEMM, stable Softmax, and a teaching-oriented fused Attention kernel |
+| [DecisionLab](https://github.com/WilsonWang621/DecisionLab) | A reproducible path from demand forecasting and uncertainty estimation to optimization and reinforcement learning |
+| [The Unseen Field](https://github.com/WilsonWang621/Science-And-Art-Innovation-Competition-2026) | A real-time WebGL installation for the 2026 SJTU science and art competition |
 
 <details>
-<summary><b>More things I've built</b></summary>
+<summary><b>More repositories</b></summary>
 <br />
 
-| Project | What I explored |
+| Project | Built around |
 | --- | --- |
-| [Raft-2026](https://github.com/WilsonWang621/Raft-2026) | Replicated logs, snapshots, fault tolerance, and a distributed key/value service in Go |
-| [PacMan-2026](https://github.com/WilsonWang621/PacMan-2026) | Search, adversarial games, probabilistic tracking, machine learning, and reinforcement learning |
-| [Ticket System 2026](https://github.com/WilsonWang621/Ticket-System-2026) | Persistent storage, a disk B+ tree, LRU caching, and ticket/waitlist workflows |
-| [Desktop Pet](https://github.com/WilsonWang621/Desktop-Pet) | A team-built Electron companion with user-defined characters and expressive state animation |
+| [Ticket System 2026](https://github.com/WilsonWang621/Ticket-System-2026) | Persistent storage, disk B+ tree, LRU cache, ticket and waitlist workflows |
+| [Raft-2026](https://github.com/WilsonWang621/Raft-2026) | Replicated logs, snapshots, failure handling, and a key/value service in Go |
+| [AIPacMan 2026](https://github.com/WilsonWang621/PacMan-2026) | Search, multi-agent games, probabilistic tracking, machine learning, and reinforcement learning |
+| [Desktop Pet](https://github.com/WilsonWang621/Desktop-Pet) | A team Electron project with custom characters and desktop interaction |
 | [Chinese Chess](https://github.com/WilsonWang621/Chinese-Chess) | A browser-playable Xiangqi game with a C++ engine and AI opponent |
 
 </details>
 
-## Recent orbit · 2026
+## Lately
 
-`Aug 11` **Personal site** — refreshed Mathematical Analysis II notes and continued the Astro-based technical blog.<br />
-`Aug 09` **Computer architecture** — organized coursework alongside the Tomasulo CPU simulator.<br />
-`Aug 01` **Research & GPU computing** — advanced DecisionLab, CUDA softmax/attention, and *The Unseen Field*.<br />
-`Jul 25` **Human-computer interaction** — shipped custom character import and window features for Desktop Pet.
+- **August 2026:** updated Mathematical Analysis II notes; continued work on the Tomasulo simulator, CUDA Attention, DecisionLab, and *The Unseen Field*.
+- **July 2026:** finished major Raft and Pacman coursework, and worked on custom characters and window behavior for Desktop Pet.
 
-I write longer build notes, course notes, and project retrospectives on **[wilsonwang621.github.io](https://wilsonwang621.github.io/)**.
+## Writing and notes
 
-## Toolbox
+Longer course notes and project write-ups live on [my website](https://wilsonwang621.github.io/). Recent subjects include Mathematical Analysis II, computer architecture, CUDA optimization, and algorithm implementations.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,c,python,go,ts,js,html,css,pytorch,cmake,git,github,linux,vscode&perline=14" alt="C++, C, Python, Go, TypeScript, JavaScript, HTML, CSS, PyTorch, CMake, Git, GitHub, Linux, and VS Code" />
-</div>
+[Blog](https://wilsonwang621.github.io/blog/) · [Project index](https://wilsonwang621.github.io/projects/) · [Algorithms](https://wilsonwang621.github.io/algorithms/)
 
-<br />
+## Working set
 
-<div align="center">
-  <a href="https://github.com/WilsonWang621?tab=repositories"><img width="96%" src="./assets/github-dashboard.svg" alt="Wilson's project signals and language orbit" /></a>
-</div>
-
-<div align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=WilsonWang621&amp;bg_color=00000000&amp;color=94a3b8&amp;line=818cf8&amp;point=22d3ee&amp;area=true&amp;area_color=6366f1&amp;hide_border=true&amp;hide_title=true" alt="Wilson's contribution activity graph" />
-</div>
+`C++` · `C` · `CUDA` · `Python` · `Go` · `TypeScript` · `PyTorch` · `CMake` · `Linux` · `Git`
 
 ---
 
-<div align="center">
-  <sub>Open to conversations about systems, AI computing, and ideas that sit between engineering and art.</sub><br />
-  <sub><code>signal received · thanks for stopping by</code></sub>
-</div>
+<sub>Shanghai, China · <a href="mailto:200706215314@sjtu.edu.cn">200706215314@sjtu.edu.cn</a></sub>
